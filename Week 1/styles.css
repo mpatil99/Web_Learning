@@ -69,7 +69,7 @@ ul {
     list-style-position: inside;
     padding-left: 0;
 }
-li:before {
+li::before {
     content: '* ';
     color: darkorange;
     /* padding-left: 10px; */
@@ -98,4 +98,8 @@ a::before {
 
 a::after {
     content: ']';
+}
+
+a:hover {
+    color: red
 }
