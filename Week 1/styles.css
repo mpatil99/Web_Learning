@@ -1,5 +1,5 @@
 body {
- background-color: white;
+ background-color: blue;
  align-content: center;
  width: 80ex;
  margin: 1em auto;
@@ -11,7 +11,7 @@ body {
 
 
 h1 {
- color: darkred;
+ color: r;
  text-align: left;
  font-family: inherit;
  font-style: inherit;
@@ -21,11 +21,11 @@ h1 {
 
 h1::before {
     content: '# ';
-    color: darkcyan;
+    color: green;
 }
 
 h2 {
- color: darkred;
+ color: purple;
  text-align: left;
  font-family: inherit;
  font-style: inherit;
@@ -34,7 +34,7 @@ h2 {
 }
 h2::before {
     content: '## ';
-    color: darkcyan;
+    color: green;
     font-family: inherit;
     font-style: inherit;
     font-weight: inherit;
@@ -42,7 +42,7 @@ h2::before {
 }
 
 h3 {
- color: darkred;
+ color: purple;
  text-align: left;
  font-family: inherit;
  font-style: inherit;
@@ -51,7 +51,7 @@ h3 {
 }
 h3::before {
     content: '### ';
-    color: darkcyan;
+    color: green;
     font-family: inherit;
     font-style: inherit;
     font-weight: inherit;
@@ -71,7 +71,7 @@ ul {
 }
 li::before {
     content: '* ';
-    color: darkorange;
+    color: black;
     /* padding-left: 10px; */
     padding-left: 0;
     padding-right: 10px;
